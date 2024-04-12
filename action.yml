@@ -1,5 +1,7 @@
-name: 'Check coverage'
-description: 'Check if coverage of pull request is greater than target branch'
+name: 'Check coverage increased'
+description: 'Check if coverage source is greater than target'
+icon: 'check'
+color: 'green'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
